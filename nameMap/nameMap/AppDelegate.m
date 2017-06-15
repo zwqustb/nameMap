@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  nameMap
+//  StaffMap
 //
-//  Created by zhangwenqiang on 2017/6/15.
-//  Copyright © 2017年 zhangwenqiang. All rights reserved.
+//  Created by 张文强 on 2016/11/18.
+//  Copyright © 2016年 张文强. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -47,5 +47,20 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+    NSLog(@"%@", url);
+    
+//    if ([[url scheme] isEqualToString:@"myurltest"])
+//    {
+//        //处理链接
+//        NSString *text = [[url host] stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+//        UIAlertView *myAlert = [[UIAlertView alloc]initWithTitle:@"新消息" message:text delegate:self cancelButtonTitle:@"知道了" otherButtonTitles: nil];
+//        [myAlert show];
+//        
+//        return YES;
+//    }
+    
+    return NO;
+}
 @end

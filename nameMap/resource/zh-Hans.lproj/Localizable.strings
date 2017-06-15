@@ -1,0 +1,12 @@
+/* 
+  File.strings
+  StaffMap
+
+  Created by 张文强 on 2016/11/24.
+  Copyright © 2016年 张文强. All rights reserved.
+*/
+"saveas"="另存为";
+"writeName"="请输入一个名字";
+"ok"="确认";
+"cancel"="取消";
+"appname"="人名图";

@@ -13,6 +13,54 @@
 		AD96B1E01EF21DE300773417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD96B1DE1EF21DE300773417 /* Main.storyboard */; };
 		AD96B1E21EF21DE300773417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD96B1E11EF21DE300773417 /* Assets.xcassets */; };
 		AD96B1E51EF21DE300773417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD96B1E31EF21DE300773417 /* LaunchScreen.storyboard */; };
+		AD96B20B1EF2212000773417 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD96B1ED1EF2212000773417 /* Localizable.strings */; };
+		AD96B20C1EF2212000773417 /* Classroom.png in Resources */ = {isa = PBXBuildFile; fileRef = AD96B1F11EF2212000773417 /* Classroom.png */; };
+		AD96B20D1EF2212000773417 /* friends.png in Resources */ = {isa = PBXBuildFile; fileRef = AD96B1F21EF2212000773417 /* friends.png */; };
+		AD96B20E1EF2212000773417 /* group.png in Resources */ = {isa = PBXBuildFile; fileRef = AD96B1F31EF2212000773417 /* group.png */; };
+		AD96B20F1EF2212000773417 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AD96B1F41EF2212000773417 /* icon.png */; };
+		AD96B2101EF2212000773417 /* kinsman.png in Resources */ = {isa = PBXBuildFile; fileRef = AD96B1F51EF2212000773417 /* kinsman.png */; };
+		AD96B2111EF2212000773417 /* staff.png in Resources */ = {isa = PBXBuildFile; fileRef = AD96B1F61EF2212000773417 /* staff.png */; };
+		AD96B2121EF2212000773417 /* students.png in Resources */ = {isa = PBXBuildFile; fileRef = AD96B1F71EF2212000773417 /* students.png */; };
+		AD96B2131EF2212000773417 /* female.png in Resources */ = {isa = PBXBuildFile; fileRef = AD96B1F91EF2212000773417 /* female.png */; };
+		AD96B2141EF2212000773417 /* male.png in Resources */ = {isa = PBXBuildFile; fileRef = AD96B1FA1EF2212000773417 /* male.png */; };
+		AD96B2151EF2212000773417 /* search.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD96B1FB1EF2212000773417 /* search.jpg */; };
+		AD96B2161EF2212000773417 /* staffFemale.png in Resources */ = {isa = PBXBuildFile; fileRef = AD96B1FC1EF2212000773417 /* staffFemale.png */; };
+		AD96B2171EF2212000773417 /* staffmale.png in Resources */ = {isa = PBXBuildFile; fileRef = AD96B1FD1EF2212000773417 /* staffmale.png */; };
+		AD96B2181EF2212000773417 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = AD96B1FF1EF2212000773417 /* add.png */; };
+		AD96B2191EF2212000773417 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = AD96B2001EF2212000773417 /* delete.png */; };
+		AD96B21A1EF2212000773417 /* drag.png in Resources */ = {isa = PBXBuildFile; fileRef = AD96B2011EF2212000773417 /* drag.png */; };
+		AD96B21B1EF2212000773417 /* editInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = AD96B2021EF2212000773417 /* editInfo.png */; };
+		AD96B21C1EF2212000773417 /* more.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD96B2031EF2212000773417 /* more.jpg */; };
+		AD96B21D1EF2212000773417 /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = AD96B2041EF2212000773417 /* ok.png */; };
+		AD96B21E1EF2212000773417 /* rightArray.png in Resources */ = {isa = PBXBuildFile; fileRef = AD96B2051EF2212000773417 /* rightArray.png */; };
+		AD96B21F1EF2212000773417 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = AD96B2061EF2212000773417 /* setting.png */; };
+		AD96B2201EF2212000773417 /* WX.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AD96B2081EF2212000773417 /* WX.JPG */; };
+		AD96B2211EF2212000773417 /* zfb.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AD96B2091EF2212000773417 /* zfb.JPG */; };
+		AD96B2531EF2214900773417 /* databaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AD96B2251EF2214900773417 /* databaseTool.m */; };
+		AD96B2541EF2214900773417 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96B2271EF2214900773417 /* Tools.swift */; };
+		AD96B2551EF2214900773417 /* userData.m in Sources */ = {isa = PBXBuildFile; fileRef = AD96B2291EF2214900773417 /* userData.m */; };
+		AD96B2561EF2214900773417 /* CCZSpreadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AD96B22E1EF2214900773417 /* CCZSpreadButton.m */; };
+		AD96B2571EF2214900773417 /* CCZSpreadComponentry.m in Sources */ = {isa = PBXBuildFile; fileRef = AD96B2301EF2214900773417 /* CCZSpreadComponentry.m */; };
+		AD96B2581EF2214900773417 /* contactTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96B2321EF2214900773417 /* contactTools.swift */; };
+		AD96B2591EF2214900773417 /* LogicTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96B2331EF2214900773417 /* LogicTools.swift */; };
+		AD96B25A1EF2214900773417 /* AllGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96B2361EF2214900773417 /* AllGroupVC.swift */; };
+		AD96B25B1EF2214900773417 /* AllGroupVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD96B2371EF2214900773417 /* AllGroupVC.xib */; };
+		AD96B25C1EF2214900773417 /* EditInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96B2381EF2214900773417 /* EditInfoVC.swift */; };
+		AD96B25D1EF2214900773417 /* EditInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD96B2391EF2214900773417 /* EditInfoVC.xib */; };
+		AD96B25E1EF2214900773417 /* newGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96B23A1EF2214900773417 /* newGroupVC.swift */; };
+		AD96B25F1EF2214900773417 /* newGroupVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD96B23B1EF2214900773417 /* newGroupVC.xib */; };
+		AD96B2601EF2214900773417 /* PayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96B23C1EF2214900773417 /* PayVC.swift */; };
+		AD96B2611EF2214900773417 /* dragView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD96B23F1EF2214900773417 /* dragView.m */; };
+		AD96B2621EF2214900773417 /* headImg.m in Sources */ = {isa = PBXBuildFile; fileRef = AD96B2421EF2214900773417 /* headImg.m */; };
+		AD96B2631EF2214900773417 /* NameButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AD96B2441EF2214900773417 /* NameButton.m */; };
+		AD96B2651EF2214900773417 /* NameInfoBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96B2461EF2214900773417 /* NameInfoBar.swift */; };
+		AD96B2661EF2214900773417 /* NameInfoBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD96B2471EF2214900773417 /* NameInfoBar.xib */; };
+		AD96B2671EF2214900773417 /* popView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD96B2491EF2214900773417 /* popView.m */; };
+		AD96B2691EF2214900773417 /* zwqFileList.m in Sources */ = {isa = PBXBuildFile; fileRef = AD96B24C1EF2214900773417 /* zwqFileList.m */; };
+		AD96B26A1EF2214900773417 /* ZwqScrollArea.m in Sources */ = {isa = PBXBuildFile; fileRef = AD96B24E1EF2214900773417 /* ZwqScrollArea.m */; };
+		AD96B26B1EF2214900773417 /* ZwqStaffArea.m in Sources */ = {isa = PBXBuildFile; fileRef = AD96B2501EF2214900773417 /* ZwqStaffArea.m */; };
+		AD96B26C1EF2214900773417 /* ZwqTools.m in Sources */ = {isa = PBXBuildFile; fileRef = AD96B2521EF2214900773417 /* ZwqTools.m */; };
+		AD96B2741EF2329B00773417 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AD96B2731EF2329B00773417 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +74,69 @@
 		AD96B1E11EF21DE300773417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD96B1E41EF21DE300773417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD96B1E61EF21DE300773417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD96B1EE1EF2212000773417 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AD96B1F11EF2212000773417 /* Classroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Classroom.png; sourceTree = "<group>"; };
+		AD96B1F21EF2212000773417 /* friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friends.png; sourceTree = "<group>"; };
+		AD96B1F31EF2212000773417 /* group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group.png; sourceTree = "<group>"; };
+		AD96B1F41EF2212000773417 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		AD96B1F51EF2212000773417 /* kinsman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kinsman.png; sourceTree = "<group>"; };
+		AD96B1F61EF2212000773417 /* staff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = staff.png; sourceTree = "<group>"; };
+		AD96B1F71EF2212000773417 /* students.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = students.png; sourceTree = "<group>"; };
+		AD96B1F91EF2212000773417 /* female.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = female.png; sourceTree = "<group>"; };
+		AD96B1FA1EF2212000773417 /* male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = male.png; sourceTree = "<group>"; };
+		AD96B1FB1EF2212000773417 /* search.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = search.jpg; sourceTree = "<group>"; };
+		AD96B1FC1EF2212000773417 /* staffFemale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = staffFemale.png; sourceTree = "<group>"; };
+		AD96B1FD1EF2212000773417 /* staffmale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = staffmale.png; sourceTree = "<group>"; };
+		AD96B1FF1EF2212000773417 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		AD96B2001EF2212000773417 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		AD96B2011EF2212000773417 /* drag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drag.png; sourceTree = "<group>"; };
+		AD96B2021EF2212000773417 /* editInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editInfo.png; sourceTree = "<group>"; };
+		AD96B2031EF2212000773417 /* more.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = more.jpg; sourceTree = "<group>"; };
+		AD96B2041EF2212000773417 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok.png; sourceTree = "<group>"; };
+		AD96B2051EF2212000773417 /* rightArray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightArray.png; sourceTree = "<group>"; };
+		AD96B2061EF2212000773417 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		AD96B2081EF2212000773417 /* WX.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WX.JPG; sourceTree = "<group>"; };
+		AD96B2091EF2212000773417 /* zfb.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zfb.JPG; sourceTree = "<group>"; };
+		AD96B20A1EF2212000773417 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		AD96B2241EF2214900773417 /* databaseTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = databaseTool.h; sourceTree = "<group>"; };
+		AD96B2251EF2214900773417 /* databaseTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = databaseTool.m; sourceTree = "<group>"; };
+		AD96B2261EF2214900773417 /* nameMap-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "nameMap-Bridging-Header.h"; sourceTree = "<group>"; };
+		AD96B2271EF2214900773417 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		AD96B2281EF2214900773417 /* userData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userData.h; sourceTree = "<group>"; };
+		AD96B2291EF2214900773417 /* userData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userData.m; sourceTree = "<group>"; };
+		AD96B22D1EF2214900773417 /* CCZSpreadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCZSpreadButton.h; sourceTree = "<group>"; };
+		AD96B22E1EF2214900773417 /* CCZSpreadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCZSpreadButton.m; sourceTree = "<group>"; };
+		AD96B22F1EF2214900773417 /* CCZSpreadComponentry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCZSpreadComponentry.h; sourceTree = "<group>"; };
+		AD96B2301EF2214900773417 /* CCZSpreadComponentry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCZSpreadComponentry.m; sourceTree = "<group>"; };
+		AD96B2321EF2214900773417 /* contactTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = contactTools.swift; sourceTree = "<group>"; };
+		AD96B2331EF2214900773417 /* LogicTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogicTools.swift; sourceTree = "<group>"; };
+		AD96B2361EF2214900773417 /* AllGroupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllGroupVC.swift; sourceTree = "<group>"; };
+		AD96B2371EF2214900773417 /* AllGroupVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllGroupVC.xib; sourceTree = "<group>"; };
+		AD96B2381EF2214900773417 /* EditInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditInfoVC.swift; sourceTree = "<group>"; };
+		AD96B2391EF2214900773417 /* EditInfoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditInfoVC.xib; sourceTree = "<group>"; };
+		AD96B23A1EF2214900773417 /* newGroupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newGroupVC.swift; sourceTree = "<group>"; };
+		AD96B23B1EF2214900773417 /* newGroupVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = newGroupVC.xib; sourceTree = "<group>"; };
+		AD96B23C1EF2214900773417 /* PayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayVC.swift; sourceTree = "<group>"; };
+		AD96B23E1EF2214900773417 /* dragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dragView.h; sourceTree = "<group>"; };
+		AD96B23F1EF2214900773417 /* dragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dragView.m; sourceTree = "<group>"; };
+		AD96B2411EF2214900773417 /* headImg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = headImg.h; sourceTree = "<group>"; };
+		AD96B2421EF2214900773417 /* headImg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = headImg.m; sourceTree = "<group>"; };
+		AD96B2431EF2214900773417 /* NameButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameButton.h; sourceTree = "<group>"; };
+		AD96B2441EF2214900773417 /* NameButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameButton.m; sourceTree = "<group>"; };
+		AD96B2461EF2214900773417 /* NameInfoBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameInfoBar.swift; sourceTree = "<group>"; };
+		AD96B2471EF2214900773417 /* NameInfoBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NameInfoBar.xib; sourceTree = "<group>"; };
+		AD96B2481EF2214900773417 /* popView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = popView.h; sourceTree = "<group>"; };
+		AD96B2491EF2214900773417 /* popView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = popView.m; sourceTree = "<group>"; };
+		AD96B24B1EF2214900773417 /* zwqFileList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zwqFileList.h; sourceTree = "<group>"; };
+		AD96B24C1EF2214900773417 /* zwqFileList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zwqFileList.m; sourceTree = "<group>"; };
+		AD96B24D1EF2214900773417 /* ZwqScrollArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZwqScrollArea.h; sourceTree = "<group>"; };
+		AD96B24E1EF2214900773417 /* ZwqScrollArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZwqScrollArea.m; sourceTree = "<group>"; };
+		AD96B24F1EF2214900773417 /* ZwqStaffArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZwqStaffArea.h; sourceTree = "<group>"; };
+		AD96B2501EF2214900773417 /* ZwqStaffArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZwqStaffArea.m; sourceTree = "<group>"; };
+		AD96B2511EF2214900773417 /* ZwqTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZwqTools.h; sourceTree = "<group>"; };
+		AD96B2521EF2214900773417 /* ZwqTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZwqTools.m; sourceTree = "<group>"; };
+		AD96B26F1EF22AD100773417 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AD96B2731EF2329B00773417 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD96B2741EF2329B00773417 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +154,10 @@
 		AD96B1C91EF21DE300773417 = {
 			isa = PBXGroup;
 			children = (
+				AD96B1EC1EF2212000773417 /* resource */,
 				AD96B1D41EF21DE300773417 /* nameMap */,
 				AD96B1D31EF21DE300773417 /* Products */,
+				AD96B2721EF2329B00773417 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +172,10 @@
 		AD96B1D41EF21DE300773417 /* nameMap */ = {
 			isa = PBXGroup;
 			children = (
+				AD96B2221EF2214900773417 /* globalClass */,
+				AD96B22A1EF2214900773417 /* third */,
+				AD96B2311EF2214900773417 /* Tools */,
+				AD96B2341EF2214900773417 /* ZwqClass */,
 				AD96B1D81EF21DE300773417 /* AppDelegate.h */,
 				AD96B1D91EF21DE300773417 /* AppDelegate.m */,
 				AD96B1DB1EF21DE300773417 /* ViewController.h */,
@@ -74,9 +192,201 @@
 		AD96B1D51EF21DE300773417 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AD96B26F1EF22AD100773417 /* PrefixHeader.pch */,
 				AD96B1D61EF21DE300773417 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD96B1EC1EF2212000773417 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				AD96B1ED1EF2212000773417 /* Localizable.strings */,
+				AD96B1EF1EF2212000773417 /* icon */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		AD96B1EF1EF2212000773417 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				AD96B1F01EF2212000773417 /* groupIcon */,
+				AD96B1F81EF2212000773417 /* headicon */,
+				AD96B1FE1EF2212000773417 /* icon */,
+				AD96B2071EF2212000773417 /* pay */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		AD96B1F01EF2212000773417 /* groupIcon */ = {
+			isa = PBXGroup;
+			children = (
+				AD96B1F11EF2212000773417 /* Classroom.png */,
+				AD96B1F21EF2212000773417 /* friends.png */,
+				AD96B1F31EF2212000773417 /* group.png */,
+				AD96B1F41EF2212000773417 /* icon.png */,
+				AD96B1F51EF2212000773417 /* kinsman.png */,
+				AD96B1F61EF2212000773417 /* staff.png */,
+				AD96B1F71EF2212000773417 /* students.png */,
+			);
+			path = groupIcon;
+			sourceTree = "<group>";
+		};
+		AD96B1F81EF2212000773417 /* headicon */ = {
+			isa = PBXGroup;
+			children = (
+				AD96B1F91EF2212000773417 /* female.png */,
+				AD96B1FA1EF2212000773417 /* male.png */,
+				AD96B1FB1EF2212000773417 /* search.jpg */,
+				AD96B1FC1EF2212000773417 /* staffFemale.png */,
+				AD96B1FD1EF2212000773417 /* staffmale.png */,
+			);
+			path = headicon;
+			sourceTree = "<group>";
+		};
+		AD96B1FE1EF2212000773417 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				AD96B1FF1EF2212000773417 /* add.png */,
+				AD96B2001EF2212000773417 /* delete.png */,
+				AD96B2011EF2212000773417 /* drag.png */,
+				AD96B2021EF2212000773417 /* editInfo.png */,
+				AD96B2031EF2212000773417 /* more.jpg */,
+				AD96B2041EF2212000773417 /* ok.png */,
+				AD96B2051EF2212000773417 /* rightArray.png */,
+				AD96B2061EF2212000773417 /* setting.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		AD96B2071EF2212000773417 /* pay */ = {
+			isa = PBXGroup;
+			children = (
+				AD96B2081EF2212000773417 /* WX.JPG */,
+				AD96B2091EF2212000773417 /* zfb.JPG */,
+			);
+			path = pay;
+			sourceTree = "<group>";
+		};
+		AD96B2221EF2214900773417 /* globalClass */ = {
+			isa = PBXGroup;
+			children = (
+				AD96B2231EF2214900773417 /* database */,
+				AD96B2261EF2214900773417 /* nameMap-Bridging-Header.h */,
+				AD96B2271EF2214900773417 /* Tools.swift */,
+				AD96B2281EF2214900773417 /* userData.h */,
+				AD96B2291EF2214900773417 /* userData.m */,
+			);
+			path = globalClass;
+			sourceTree = "<group>";
+		};
+		AD96B2231EF2214900773417 /* database */ = {
+			isa = PBXGroup;
+			children = (
+				AD96B2241EF2214900773417 /* databaseTool.h */,
+				AD96B2251EF2214900773417 /* databaseTool.m */,
+			);
+			path = database;
+			sourceTree = "<group>";
+		};
+		AD96B22A1EF2214900773417 /* third */ = {
+			isa = PBXGroup;
+			children = (
+				AD96B22B1EF2214900773417 /* view */,
+			);
+			path = third;
+			sourceTree = "<group>";
+		};
+		AD96B22B1EF2214900773417 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AD96B22C1EF2214900773417 /* CCZSpreadButton */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AD96B22C1EF2214900773417 /* CCZSpreadButton */ = {
+			isa = PBXGroup;
+			children = (
+				AD96B22D1EF2214900773417 /* CCZSpreadButton.h */,
+				AD96B22E1EF2214900773417 /* CCZSpreadButton.m */,
+				AD96B22F1EF2214900773417 /* CCZSpreadComponentry.h */,
+				AD96B2301EF2214900773417 /* CCZSpreadComponentry.m */,
+			);
+			path = CCZSpreadButton;
+			sourceTree = "<group>";
+		};
+		AD96B2311EF2214900773417 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				AD96B2321EF2214900773417 /* contactTools.swift */,
+				AD96B2331EF2214900773417 /* LogicTools.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		AD96B2341EF2214900773417 /* ZwqClass */ = {
+			isa = PBXGroup;
+			children = (
+				AD96B2351EF2214900773417 /* controller */,
+				AD96B23D1EF2214900773417 /* view */,
+				AD96B24B1EF2214900773417 /* zwqFileList.h */,
+				AD96B24C1EF2214900773417 /* zwqFileList.m */,
+				AD96B24D1EF2214900773417 /* ZwqScrollArea.h */,
+				AD96B24E1EF2214900773417 /* ZwqScrollArea.m */,
+				AD96B24F1EF2214900773417 /* ZwqStaffArea.h */,
+				AD96B2501EF2214900773417 /* ZwqStaffArea.m */,
+				AD96B2511EF2214900773417 /* ZwqTools.h */,
+				AD96B2521EF2214900773417 /* ZwqTools.m */,
+			);
+			path = ZwqClass;
+			sourceTree = "<group>";
+		};
+		AD96B2351EF2214900773417 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				AD96B2361EF2214900773417 /* AllGroupVC.swift */,
+				AD96B2371EF2214900773417 /* AllGroupVC.xib */,
+				AD96B2381EF2214900773417 /* EditInfoVC.swift */,
+				AD96B2391EF2214900773417 /* EditInfoVC.xib */,
+				AD96B23A1EF2214900773417 /* newGroupVC.swift */,
+				AD96B23B1EF2214900773417 /* newGroupVC.xib */,
+				AD96B23C1EF2214900773417 /* PayVC.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		AD96B23D1EF2214900773417 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AD96B23E1EF2214900773417 /* dragView.h */,
+				AD96B23F1EF2214900773417 /* dragView.m */,
+				AD96B2401EF2214900773417 /* group */,
+				AD96B2411EF2214900773417 /* headImg.h */,
+				AD96B2421EF2214900773417 /* headImg.m */,
+				AD96B2431EF2214900773417 /* NameButton.h */,
+				AD96B2441EF2214900773417 /* NameButton.m */,
+				AD96B2461EF2214900773417 /* NameInfoBar.swift */,
+				AD96B2471EF2214900773417 /* NameInfoBar.xib */,
+				AD96B2481EF2214900773417 /* popView.h */,
+				AD96B2491EF2214900773417 /* popView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AD96B2401EF2214900773417 /* group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = group;
+			sourceTree = "<group>";
+		};
+		AD96B2721EF2329B00773417 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD96B2731EF2329B00773417 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +432,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = AD96B1C91EF21DE300773417;
 			productRefGroup = AD96B1D31EF21DE300773417 /* Products */;
@@ -138,9 +449,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD96B2111EF2212000773417 /* staff.png in Resources */,
 				AD96B1E51EF21DE300773417 /* LaunchScreen.storyboard in Resources */,
+				AD96B20D1EF2212000773417 /* friends.png in Resources */,
+				AD96B2171EF2212000773417 /* staffmale.png in Resources */,
+				AD96B21E1EF2212000773417 /* rightArray.png in Resources */,
+				AD96B2201EF2212000773417 /* WX.JPG in Resources */,
+				AD96B2151EF2212000773417 /* search.jpg in Resources */,
+				AD96B2161EF2212000773417 /* staffFemale.png in Resources */,
+				AD96B20B1EF2212000773417 /* Localizable.strings in Resources */,
+				AD96B2181EF2212000773417 /* add.png in Resources */,
+				AD96B2121EF2212000773417 /* students.png in Resources */,
+				AD96B25B1EF2214900773417 /* AllGroupVC.xib in Resources */,
+				AD96B2661EF2214900773417 /* NameInfoBar.xib in Resources */,
 				AD96B1E21EF21DE300773417 /* Assets.xcassets in Resources */,
+				AD96B20F1EF2212000773417 /* icon.png in Resources */,
+				AD96B2141EF2212000773417 /* male.png in Resources */,
+				AD96B21A1EF2212000773417 /* drag.png in Resources */,
+				AD96B21B1EF2212000773417 /* editInfo.png in Resources */,
+				AD96B2191EF2212000773417 /* delete.png in Resources */,
+				AD96B20E1EF2212000773417 /* group.png in Resources */,
 				AD96B1E01EF21DE300773417 /* Main.storyboard in Resources */,
+				AD96B21D1EF2212000773417 /* ok.png in Resources */,
+				AD96B2101EF2212000773417 /* kinsman.png in Resources */,
+				AD96B25F1EF2214900773417 /* newGroupVC.xib in Resources */,
+				AD96B21F1EF2212000773417 /* setting.png in Resources */,
+				AD96B2211EF2212000773417 /* zfb.JPG in Resources */,
+				AD96B20C1EF2212000773417 /* Classroom.png in Resources */,
+				AD96B21C1EF2212000773417 /* more.jpg in Resources */,
+				AD96B25D1EF2214900773417 /* EditInfoVC.xib in Resources */,
+				AD96B2131EF2212000773417 /* female.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,9 +489,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD96B2591EF2214900773417 /* LogicTools.swift in Sources */,
+				AD96B2531EF2214900773417 /* databaseTool.m in Sources */,
+				AD96B2671EF2214900773417 /* popView.m in Sources */,
+				AD96B25C1EF2214900773417 /* EditInfoVC.swift in Sources */,
+				AD96B2621EF2214900773417 /* headImg.m in Sources */,
+				AD96B2581EF2214900773417 /* contactTools.swift in Sources */,
+				AD96B26C1EF2214900773417 /* ZwqTools.m in Sources */,
 				AD96B1DD1EF21DE300773417 /* ViewController.m in Sources */,
+				AD96B2631EF2214900773417 /* NameButton.m in Sources */,
+				AD96B26B1EF2214900773417 /* ZwqStaffArea.m in Sources */,
+				AD96B2691EF2214900773417 /* zwqFileList.m in Sources */,
 				AD96B1DA1EF21DE300773417 /* AppDelegate.m in Sources */,
+				AD96B2651EF2214900773417 /* NameInfoBar.swift in Sources */,
 				AD96B1D71EF21DE300773417 /* main.m in Sources */,
+				AD96B2601EF2214900773417 /* PayVC.swift in Sources */,
+				AD96B26A1EF2214900773417 /* ZwqScrollArea.m in Sources */,
+				AD96B25A1EF2214900773417 /* AllGroupVC.swift in Sources */,
+				AD96B2561EF2214900773417 /* CCZSpreadButton.m in Sources */,
+				AD96B2551EF2214900773417 /* userData.m in Sources */,
+				AD96B2611EF2214900773417 /* dragView.m in Sources */,
+				AD96B25E1EF2214900773417 /* newGroupVC.swift in Sources */,
+				AD96B2571EF2214900773417 /* CCZSpreadComponentry.m in Sources */,
+				AD96B2541EF2214900773417 /* Tools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +532,15 @@
 				AD96B1E41EF21DE300773417 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AD96B1ED1EF2212000773417 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD96B1EE1EF2212000773417 /* en */,
+				AD96B20A1EF2212000773417 /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -275,11 +642,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 46SVHMGT9D;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/nameMap/PrefixHeader.pch";
 				INFOPLIST_FILE = nameMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zwq.nameMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "nameMap/globalClass/nameMap-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -287,11 +658,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 46SVHMGT9D;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/nameMap/PrefixHeader.pch";
 				INFOPLIST_FILE = nameMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zwq.nameMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "nameMap/globalClass/nameMap-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -314,6 +689,7 @@
 				AD96B1EB1EF21DE300773417 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

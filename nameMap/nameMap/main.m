@@ -1,9 +1,9 @@
 //
 //  main.m
-//  nameMap
+//  StaffMap
 //
-//  Created by zhangwenqiang on 2017/6/15.
-//  Copyright © 2017年 zhangwenqiang. All rights reserved.
+//  Created by 张文强 on 2016/11/18.
+//  Copyright © 2016年 张文强. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

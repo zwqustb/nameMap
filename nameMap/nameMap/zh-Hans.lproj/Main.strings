@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "加一列"; ObjectID = "NCj-8G-VfD"; */
+"NCj-8G-VfD.normalTitle" = "加一行";
+
+/* Class = "UIButton"; normalTitle = "分享"; ObjectID = "ZUA-KH-57X"; */
+"ZUA-KH-57X.normalTitle" = "分享";
+
+/* Class = "UIButton"; normalTitle = "保存"; ObjectID = "euq-M1-oE7"; */
+"euq-M1-oE7.normalTitle" = "保存";
+
+/* Class = "UIButton"; normalTitle = "加一行"; ObjectID = "jER-BQ-RIu"; */
+"jER-BQ-RIu.normalTitle" = "加一列";

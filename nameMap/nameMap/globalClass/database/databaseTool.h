@@ -30,6 +30,7 @@
 +(void)insertGroup:(NSArray*)pInfo;
 //删
 +(void)deleteName:(NSUInteger)nID;
++(void)deleteAllNames;
 //改
 +(void)updateNameByID:(NSUInteger)nID info:(NSString*)pInfo;
 +(void)updateNameByID:(NSUInteger)nID X:(NSUInteger)nX Y:(NSUInteger)nY;

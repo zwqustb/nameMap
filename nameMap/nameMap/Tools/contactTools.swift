@@ -91,13 +91,16 @@ class contactTools: NSObject {
     class func importFromContact()
     {
         let store:CNContactStore = CNContactStore.init()
+        databaseTool.deleteAllNames();
         store.requestAccess(for: CNEntityType.contacts) { (granted, error) in
             if (granted == true) {
                 let Keys:Array = [CNContactFamilyNameKey,
                                   CNContactMiddleNameKey,
                                   CNContactNoteKey,
                                   CNContactDepartmentNameKey,
-                                  CNContactOrganizationNameKey]
+                                  CNContactOrganizationNameKey,
+                                  CNContactNamePrefixKey,
+                                  CNContactNameSuffixKey]
                 let pRequest:CNContactFetchRequest=CNContactFetchRequest.init(keysToFetch: Keys as [CNKeyDescriptor])
                 _ = try? store.enumerateContacts(with: pRequest, usingBlock: { (contact, bStop) in
                     let pInfo = contact.note
@@ -105,6 +108,7 @@ class contactTools: NSObject {
                     {
                         let strGroupID = (contact.departmentName == "" ? "0":contact.departmentName)
                         databaseTool.setCurGroupID(Int(strGroupID)!)
+                       // if(!contact.namePrefix.isEmpty&&!contact.nameSuffix.isEmpty)
                         let x=UInt(contact.namePrefix)
                         let y=UInt(contact.nameSuffix)
                         databaseTool.insertNameX(x!, y: y!, info: pInfo)

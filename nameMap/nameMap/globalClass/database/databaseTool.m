@@ -89,13 +89,19 @@ static NSInteger CurGroupID;
 +(void)insertNameX:(NSUInteger)nX  Y:(NSUInteger)nY info:(NSString*)pInfo
 {
   //  sqlite3_bind_blob(stmt, 7, [image bytes], [image length], NULL);
+  //  const char* sInfo=[pInfo UTF8String];
     NSString *sql1 = [NSString stringWithFormat:
-                      @"INSERT INTO '%@' ( '%@', '%@','%@','%@') VALUES ( %zi, %zi,'%s',%zi)",
-                      TBNAME, Column1,Column2,Column3,Column4,nX,nY,[pInfo UTF8String],CurGroupID];
+                      @"INSERT INTO '%@' ( '%@', '%@','%@','%@') VALUES ( %zi, %zi,'%@',%zi)",
+                      TBNAME, Column1,Column2,Column3,Column4,nX,nY,pInfo,CurGroupID];
     [self execSql:sql1];
 }
 
 #pragma mark 删
++(void)deleteAllNames
+{
+    NSString *sql1 = [NSString stringWithFormat:@"DELETE FROM %@",TBNAME];
+    [self execSql:sql1];
+}
 +(void)deleteName:(NSUInteger)nID
 {
     NSString *sql1 = [NSString stringWithFormat:@"DELETE FROM %@ WHERE id=%zi",TBNAME,nID];
@@ -175,8 +181,8 @@ static NSInteger CurGroupID;
             
             char *pInfo = (char *)sqlite3_column_text(statement,3);
             if (pInfo) {
-                NSString *strInfo = [[NSString alloc] initWithUTF8String:pInfo];
-                pDic[Column3]=strInfo;
+                NSString *strInfo = [NSString stringWithCString:pInfo encoding:NSUTF8StringEncoding];//[[NSString alloc] initWithUTF8String:pInfo];
+                pDic[Column3]= strInfo;
             }
             pDic[Column4]=@(nGroupID);
             [pAry addObject:pDic];
